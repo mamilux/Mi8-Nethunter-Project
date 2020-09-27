@@ -10,6 +10,9 @@ Here is the kernel source code: [Kernel Source](https://github.com/TsingPeng03/T
 
 Here are all the Patch files used: [Patch](https://github.com/TsingPeng03/Mi8-Nethunter-Project/tree/master/patch)
 
+Here is the download: [Download](https://github.com/TsingPeng03/Mi8-Nethunter-Project/releases)
+The latest version: V27
+
 ## Kernel Function
 ### Support Nethunter Function
 - WIFI Injection IEEE80211 and support 2.4GHZ & 5GHZ
