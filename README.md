@@ -6,8 +6,8 @@ The kernel uses Google common kernel to merge CAF production, suitable for MIUI1
 
 Support all functions on Nethunter official website
 
-Here is the kernel source code:
-Here are all the Patch files used: 
+Here is the kernel source code: [Kernel Source](https://github.com/TsingPeng03/Tsing-845)
+Here are all the Patch files used: [Patch](https://github.com/TsingPeng03/Mi8-Nethunter-Project/tree/master/patch)
 
 ## Kernel Function
 ### Support Nethunter Function
@@ -76,12 +76,23 @@ Xiaomi phone need set wlan2 instead of wlan1
 Please tell me
 
 ### Thank you list (ranked without distinction)
-[Google Common Kernel](https://android.googlesource.com/kernel/common/+/refs/heads/android-4.9-q)
-[Twisted Prime](https://github.com/TwistedPrime)
-[palaych](https://github.com/palaych)
-[osm0sis](https://github.com/osm0sis/AnyKernel3)
-[kimocoder](https://github.com/kimocoder)
-[johanlike](https://github.com/johanlike)
-[simonpunk](https://forum.xda-developers.com/oneplus-5/development/burgerhunter-t3638810)
-[h1jacker](https://github.com/h1jacker)
-[SDTLB](https://github.com/shandongtlb)
+
+Thanks [Google Common Kernel](https://android.googlesource.com/kernel/common/+/refs/heads/android-4.9-q) for kernel source
+
+Thanks [CAF-SDM845](https://source.codeaurora.org/quic/la/kernel/msm-4.9) for kernel tree
+
+Thanks [Twisted Prime](https://github.com/TwistedPrime) for any help
+
+Thanks [palaych](https://github.com/palaych) for any help
+
+Thanks [kimocoder](https://github.com/kimocoder) for rtl88xxau driver and any help
+
+Thanks [johanlike](https://github.com/johanlike) for Enable Qcom WiFi monitor mode and any help
+
+Thanks [simonpunk](https://forum.xda-developers.com/oneplus-5/development/burgerhunter-t3638810) for HID patch
+
+Thanks [h1jacker](https://github.com/h1jacker) for any help 
+
+Thanks [SDTLB](https://github.com/shandongtlb) for any help
+
+Thanks [osm0sis](https://github.com/osm0sis/AnyKernel3) for busybox and anykernel3
