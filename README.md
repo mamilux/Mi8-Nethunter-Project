@@ -7,6 +7,7 @@ The kernel uses Google common kernel to merge CAF production, suitable for MIUI1
 Support all functions on Nethunter official website
 
 Here is the kernel source code: [Kernel Source](https://github.com/TsingPeng03/Tsing-845)
+
 Here are all the Patch files used: [Patch](https://github.com/TsingPeng03/Mi8-Nethunter-Project/tree/master/patch)
 
 ## Kernel Function
@@ -60,7 +61,7 @@ Here are all the Patch files used: [Patch](https://github.com/TsingPeng03/Mi8-Ne
 First on the premise of removing the mandatory encryption of data partition, back up your existing boot.img and dtbo.img and flash magisk, then swipe the kernel package into twrp and restart it.
 Second enter your system, install kali chroot and reboot.
 
-If you want to use HID,you should run `setprop sys.usb.config win,hid` as root on the terminal.
+How to open the HID keyboard? Enter `setprop sys.usb.config win,hid` as the root user, in the terminal, and you can open the HID keyboard
 
 
 Please see here to see how to turn wlan0 monitor mode on.
@@ -68,9 +69,12 @@ Please see here to see how to turn wlan0 monitor mode on.
 
 Due to the special nature of the newly added rtl8812au network card, it is not possible to directly use airmon-ng to directly start the monitoring mode, which can be run by the following command:
 Xiaomi phone need set wlan2 instead of wlan1
-`ip link wlan2 down`
-`iw dev wlan2 set type monitor`
-`ip link wlan2 up`
+
+```
+ip link wlan2 down
+iw dev wlan2 set type monitor
+ip link wlan2 up
+```
 
 ### Known Issues
 Please tell me
