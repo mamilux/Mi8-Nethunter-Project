@@ -64,7 +64,7 @@ Second enter your system, install kali chroot and reboot.
 How to open the HID keyboard? Enter `setprop sys.usb.config win,hid` as the root user, in the terminal, and you can open the HID keyboard
 
 
-Please see here to see how to turn wlan0 monitor mode on.
+Please see [here](https://github.com/kimocoder/qualcomm_android_monitor_mode) to see how to turn wlan0 monitor mode on.
 
 
 Due to the special nature of the newly added rtl8812au network card, it is not possible to directly use airmon-ng to directly start the monitoring mode, which can be run by the following command:
